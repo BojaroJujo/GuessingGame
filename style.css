@@ -1,0 +1,46 @@
+.container{
+  background-color: cornsilk;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  min-width: 250px;
+  margin: 0 auto;
+  font-family: "Helvetica", sans-serif;
+}
+button, input{
+  border: solid 1px black;
+  border-radius: 5px;
+}
+input{
+  width: 40px;
+  text-align: right;
+}
+button{
+    background-color: #fffbed;
+    margin: 5px 0 5px 0;
+}
+#restartButton{
+    background-color: #5ebe5e;
+    color: white;
+}
+#restartButton:hover{
+    background-color: #d2f7d2;
+}
+#restartButton:active, #restartButton.restartActive{
+    background-color: #a6f3a6;
+}
+button:hover, button:active, .buttonActive{
+    color:white
+}
+button:hover{
+    background-color: #e4dbb8;
+}
+button:active, .buttonActive{
+    background-color: #918c77;
+}
+#restartButton{
+    display: none;
+}

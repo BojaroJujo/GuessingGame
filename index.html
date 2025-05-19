@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guessing Game</h1>
+      <p>Guess a number between 1 and 100</p>
+      <input type="number" value="1" min="1" max="100" id="guess">
+      <br>
+      <button onclick="checkGuess()" id="submitButton">Submit</button>
+      <button onclick="update()" id="restartButton" >Play Again?</button>
+      <p id="feedback"></p>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
